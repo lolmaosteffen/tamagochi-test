@@ -31,6 +31,7 @@ function death() {
     document.getElementById("chicken").innerHTML = `<img src="img/Screenshot 2024-08-26 115744.png" alt="">`;
 }
 function startHealthBar1() {
+    clearTimeout(healthBar)
     document.getElementById("HP").innerHTML = `<img src="img/aølksdfj.png" alt="">`;
     healthBar = setTimeout(startHealthBar2, 2000)
 }
