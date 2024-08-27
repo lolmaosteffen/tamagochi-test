@@ -40,7 +40,6 @@ function decay() {
         clearInterval(deathTimerID)
         startHealthBar6()
     }
-    console.log(healthBar)
 }
 
 function feedingTime() {
